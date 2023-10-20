@@ -1,0 +1,75 @@
+.App {
+  text-align: center;   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  color: #5d8bb1;
+}
+
+.form-box {
+  width: 400px;
+  border: 2px solid #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  flex: 0 0 30%; 
+  text-align: left;
+  padding-right: 10px;
+}
+
+.form-group input {
+  flex: 1;
+  border: none; 
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.price-input {
+  display: flex;
+  align-items: center;
+}
+
+.price-input span {
+  padding-right: 5px;
+}
+
+.submit-button {
+  background-color: #6b6c6e;
+  color: white;
+  margin-right: 170px;
+}
+
+.cancel-button {
+  background-color: #c9cbcd;
+  color: rgb(5, 5, 5);
+}
+
+.submit-button,
+.cancel-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+}
+
+
+
